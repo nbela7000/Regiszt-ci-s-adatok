@@ -1,0 +1,1 @@
+# Regiszt-ci-s-adatok
