@@ -3,16 +3,17 @@
    <head>
       <title>HTML űrlapok</title>
       <meta charset="UTF-8"/>
+      
       <style>
       body {background-color: powderblue;}
       h1   {color: blue;}
       p    {color: red;}
-</style>
-   </head>
+     </style>
+    </head>
    <body>
       <form action="feldolgoz.php" method="POST" enctype="multipart/form-data">
-        <fieldset>
-          <h1 align="center">Regisztrációs adatok</h1>
+        <form>
+          <h1 align="center">Regisztrációs adatok</h1></br>
           <label>Teljes név: <input type="text" name="full-name" size="25"/></label> <br/>
           <label>Felhasználónév: <input type="text" name="username" required/></label> <br/>
           <label>Jelszó: <input type="password" name="passwd" required/></label> <br/>
@@ -20,7 +21,7 @@
           <label>Születési dátum: <input type="date" name="date-of-birth" min="1920-01-01"/></label> <br/>
           <label>E-mail: <input type="email" name="email" required/></label> <br/>
           <label>Felhasználói azonosító: <input type="number" name="user-id" value="12345" disabled/></label> <br/>
-        </fieldset>
+        </form>
 
         <label for="education">Legmagasabb iskolai végzettség:</label>
         <select id="education">
